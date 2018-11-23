@@ -5,7 +5,7 @@ def prime?(n)
   factor = 2
   
   if n > 1
-    return false
-  else
     return true
+  else
+    return false
 end
