@@ -9,7 +9,9 @@ def prime?(n)
       if n % factor == 0 
         prime_numbers << factor
         return true
-      
+        
+      elsif n == factor
+        return false
       else
         factor += 1 
       end
