@@ -2,11 +2,12 @@
 
 def prime?(n)
   prime_numbers = []
-  factor = 2
+  factor = 2 
   
-  if n > 1
-    return true
+  if n > 1 
+    return true 
   else
-    return false
+    return false 
+  end
     
 end
