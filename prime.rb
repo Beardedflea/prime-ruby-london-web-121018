@@ -13,7 +13,9 @@ def prime?(n)
       else
         factor += 1 
       end
+      
     end
+    
   else
     return false 
   end
