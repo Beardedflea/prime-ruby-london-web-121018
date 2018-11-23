@@ -11,7 +11,7 @@ def prime?(n)
         return true
       
       else
-        f += 1 
+        factor += 1 
       end
     end
   else
